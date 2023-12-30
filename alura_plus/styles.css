@@ -142,3 +142,48 @@ body {
     margin: 24px 0;
     font-size: 14px;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: block;
+    }
+
+    .principal {
+        background-image: none;
+    }
+
+    .container__caixa {
+        margin: 1rem 1rem;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .secundario_imagem{
+        width: 50vw;
+    }
+
+    body > section:nth-child(3) > img {
+        width: 80vw;
+        bottom: -25vw;
+        position: relative;
+    }
+
+    .rodape {
+        padding: 0 1rem;
+    }
+
+    .dispositivos__lista {
+        display: block;
+    }
+
+    .rodape__lista {
+        display: block;
+    }
+}
